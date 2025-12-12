@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #FF715B;
+    font-weight: 600;
+    text-align: center;
+  font-size: 3rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+li {
+    border-radius: 50%;
+    background: linear-gradient(176deg, rgba(255, 246, 207, 1) 35%, rgba(254, 206, 122, 1) 100%);
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #FF715B;
+}
